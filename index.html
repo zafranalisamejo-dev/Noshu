@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>I'm Sorry, Seerat ❤️</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="loader">
+    <div class="loader-heart">❤️</div>
+  </div>
+
+  <div id="canvas-container"></div>
+  <div class="overlay"></div>
+
+  <!-- Decorative floating hearts -->
+  <div class="floating-ui-heart" style="top: 12%; left: 8%; animation-delay: 0s;">💖</div>
+  <div class="floating-ui-heart" style="top: 25%; right: 10%; animation-delay: 1.5s; font-size: 22px;">💕</div>
+  <div class="floating-ui-heart" style="bottom: 20%; left: 12%; animation-delay: 3s;">💗</div>
+  <div class="floating-ui-heart" style="top: 60%; right: 6%; animation-delay: 2s; font-size: 16px;">💓</div>
+  <div class="floating-ui-heart" style="bottom: 35%; right: 18%; animation-delay: 4s;">💝</div>
+
+  <div class="content">
+    <h1 class="name">Seerat</h1>
+    <p class="subtitle">I'm Truly Sorry</p>
+
+    <div class="message-box">
+      <p>
+        My dearest <span class="highlight">Seerat</span>,<br><br>
+        I know I hurt you… and nothing in this world can express how deeply I regret it.
+        You mean everything to me. Your silence is louder than any words, and it breaks me.
+        Please forgive me. I promise to do better, to love you softer, and never take your heart for granted again.
+        <br><br>
+        <span class="highlight">I love you.</span> Always.
+      </p>
+    </div>
+
+    <div class="sorry-form">
+      <h3>Write your heart to her…</h3>
+      <textarea id="messageInput" placeholder="Type your personal message to Seerat here..."></textarea>
+      <div class="btn-row">
+        <button class="btn btn-primary" id="sendBtn">Send with Love 💌</button>
+        <button class="btn btn-secondary" id="heartsBtn">More Hearts ❤️</button>
+      </div>
+      <div class="success-msg" id="successMsg">
+        Your love has been sent into the universe ✨<br>
+        May it reach Seerat’s heart.
+      </div>
+    </div>
+
+    <p class="footer-note">Made with a heavy heart & endless love • For Seerat only</p>
+  </div>
+
+  <!-- Three.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
